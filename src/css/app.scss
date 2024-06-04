@@ -1,0 +1,52 @@
+// app global css in SCSS form
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+.wrapper-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.wrapper-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.text-special {
+  font-family: "Edu TAS Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.name-sophrologue {
+  font-family: "Passions Conflict", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  font-size: 50px;
+}
