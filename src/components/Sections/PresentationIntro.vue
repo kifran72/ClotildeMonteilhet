@@ -3,26 +3,26 @@
     <div class="flex flex-center">
       <img
         alt="Quasar logo"
-        src="https://gaia.artemize.fr/wp-content/uploads/2022/11/Template-1-Home-1-1.png"
-        style="width: 100%; height: auto"
+        src="https://drive.google.com/thumbnail?id=1Hn8rdJ-ejrzlZsQCuLiV8eFp4cNxdiJW&sz=w1000"
+        style="width: 80%; height: auto"
       />
     </div>
-    <div class="q-pr-md q-pl-md content-center">
+
+    <div class="content-center">
       <h2 class="text-special text-secondary">Bienvenue !</h2>
-      <h4>Je suis Clotilde Montheillet, Sophrologue à Bordeaux</h4>
+      <h4>Je suis Clotilde Montheillet, Sophrologue à Coutras</h4>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim
-        veniam.
+        À votre écoute pour vous accompagner dans votre bien-être personnel.
       </p>
       <div class="flex flex-center">
-        <q-btn
-          dense
-          flat
-          label="EN SAVOIR + SUR MOI"
-          class="q-pl-md q-pr-md q-ma-lg bg-secondary"
-          color="white"
-        />
+        <RouterLink v-if="!$q.screen.lt.sm" to="/about"
+          ><q-btn
+            dense
+            flat
+            label="EN SAVOIR + SUR MOI"
+            class="q-pl-md q-pr-md q-ma-lg bg-secondary"
+            color="white"
+        /></RouterLink>
       </div>
     </div>
   </div>

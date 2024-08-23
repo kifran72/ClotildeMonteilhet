@@ -2,11 +2,19 @@
   <q-layout view="hhh lpR fff">
     <q-header>
       <HeaderContact />
-      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-3'">
-        <q-toolbar-title class="bg-primary q-ml-xs">
-          <p class="name-sophrologue text-black">
-            <RouterLink to="/">Clotilde Montheillet</RouterLink>
-          </p>
+      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-2'">
+        <q-toolbar-title
+          class="bg-primary"
+          v-if="$q.screen.lt.sm || $q.screen.lt.md"
+        >
+          <RouterLink
+            to="/"
+            class="text-black"
+            :class="
+              $q.screen.lt.sm ? 'name-sophrologue-phone' : 'name-sophrologue'
+            "
+            >Clotilde Montheillet
+          </RouterLink>
         </q-toolbar-title>
         <q-btn
           v-if="$q.screen.lt.md"
@@ -18,13 +26,16 @@
           color="secondary"
           @click="toggleRightDrawer"
         />
-        <CategoriesLinks v-if="!$q.screen.lt.md" />
+        <div class="flex justify-start">
+          <RoutesTab v-if="!$q.screen.lt.md" />
+        </div>
+        <SocialLinks v-if="!$q.screen.lt.md" />
       </q-toolbar>
     </q-header>
 
     <q-drawer v-model="rightDrawerOpen" side="right" overlay bordered>
       <!-- drawer content -->
-      <DrawerContent />
+      <RoutesTab />
     </q-drawer>
 
     <q-page-container class="bg-accent">
@@ -51,21 +62,12 @@
 
 <script setup>
 import { ref } from "vue";
-import CategoriesLinks from "../components/CategoriesLinks.vue";
+import RoutesTab from "../components/RoutesTab/RoutesTab.vue";
+import SocialLinks from "../components/SocialLinks.vue";
 import HeaderContact from "../components/HeaderContact.vue";
-import DrawerContent from "src/components/DrawerContent.vue";
 
 const rightDrawerOpen = ref(false);
 const toggleRightDrawer = () => {
   rightDrawerOpen.value = !rightDrawerOpen.value;
 };
 </script>
-
-<style>
-.separation-contact {
-  border-style: dotted;
-  border-width: 0px 0px 1px 0px;
-  border-color: #ffffff;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-}
-</style>

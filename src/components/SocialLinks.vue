@@ -1,13 +1,4 @@
 <template>
-  <q-tabs
-    v-model="tab"
-    class="bg-primary text-black full-height"
-    active-color="accent"
-    indicator-color="black"
-  >
-    <RoutesTab />
-  </q-tabs>
-
   <div class="flex justify-end">
     <q-btn
       v-for="feed in socialfeed"
@@ -24,11 +15,6 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import RoutesTab from "./RoutesTab.vue";
-
-const tab = ref("");
-
 const socialfeed = [
   { id: 1, icon: "fab fa-instagram" },
   { id: 2, icon: "fab fa-facebook-f" },
@@ -36,6 +22,6 @@ const socialfeed = [
 ];
 
 defineOptions({
-  name: "CategoriesLinks",
+  name: "SocialLinks",
 });
 </script>
