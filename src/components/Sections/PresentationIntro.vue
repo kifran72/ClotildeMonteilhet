@@ -9,7 +9,7 @@
     </div>
     <div class="content-center" style="max-width: 45rem">
       <h2 class="text-special text-secondary">Bienvenue !</h2>
-      <h4>Je suis Clotilde Montheillet, Sophrologue à Coutras</h4>
+      <h4>Je suis Clotilde Monteilhet, Sophrologue à Coutras</h4>
       <p>
         À votre écoute pour vous accompagner dans votre bien-être personnel.
       </p>

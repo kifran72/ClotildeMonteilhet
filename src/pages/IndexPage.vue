@@ -1,8 +1,6 @@
 <template>
-  <q-page class="q-px-xl">
-    <PresentationIntro />
-    <CategoriesIntro />
-  </q-page>
+  <PresentationIntro />
+  <CategoriesIntro />
 </template>
 
 <script setup>

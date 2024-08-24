@@ -1,7 +1,6 @@
 <template>
   <q-route-tab
     exact
-    v-if="Tab.data.dropdown === null"
     :key="Tab.data.id"
     :to="Tab.data.route"
     :label="Tab.data.label"

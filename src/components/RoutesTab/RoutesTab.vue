@@ -1,15 +1,16 @@
 <template>
   <q-tabs
-    class="full-height bg-primary text-black"
+    class="bg-primary text-black"
     active-color="accent"
     indicator-color="black"
-    inline-label
     stretch
     :vertical="$q.screen.lt.md"
     :animated="$q.screen.lt.md"
   >
-    <RoutesTabSimple v-for="tab in tabs" :key="tab.id" :data="tab" />
-    <RoutesTabDropdown v-for="tab in tabs" :key="tab.id" :data="tab" />
+    <template v-for="tab in tabs" :key="tab.id">
+      <RoutesTabSimple v-if="tab.dropdown === null" :data="tab" />
+      <RoutesTabDropdown v-else :data="tab" />
+    </template>
   </q-tabs>
 </template>
 

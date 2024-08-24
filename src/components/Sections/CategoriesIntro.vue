@@ -1,5 +1,5 @@
 <template>
-  <h1>CategoriesIntro</h1>
+  <h2>CategoriesIntro</h2>
 
   <section class="q-pb-lg">
     <q-btn

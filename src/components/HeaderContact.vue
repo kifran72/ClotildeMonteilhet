@@ -8,7 +8,7 @@
       v-if="!$q.screen.lt.md"
       to="/"
       class="name-sophrologue text-black q-ml-md"
-      >Clotilde Montheillet</RouterLink
+      >Clotilde Monteilhet</RouterLink
     >
     <div class="flex">
       <div
@@ -16,7 +16,9 @@
         v-for="info in ContactInfos"
         :key="info.id"
       >
-        <q-btn outline :label="info.label" class="q-my-md" />
+        <RouterLink :to="info.link"
+          ><q-btn outline :label="info.label" class="q-my-md"
+        /></RouterLink>
       </div>
     </div>
   </div>
@@ -30,14 +32,17 @@ const ContactInfos = [
   {
     id: 1,
     label: "Mon compte",
+    link: "/account",
   },
   {
     id: 2,
     label: "Contact",
+    link: "/contact",
   },
   {
     id: 3,
     label: "Rendez-vous",
+    link: "/appointments",
   },
 ];
 </script>

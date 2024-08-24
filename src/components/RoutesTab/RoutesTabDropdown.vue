@@ -1,9 +1,9 @@
 <template>
   <q-btn-dropdown
-    v-if="Tab.data.dropdown !== null"
     flat
+    fab
     dense
-    :stack="$q.screen.lt.md"
+    square
     :class="$q.screen.lt.md ? 'full-width q-pa-md' : ''"
     :content-class="$q.screen.lt.md ? 'no-box-shadow bg-primary' : ''"
     :label="Tab.data.label"

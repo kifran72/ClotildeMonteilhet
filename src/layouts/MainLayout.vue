@@ -13,7 +13,7 @@
             :class="
               $q.screen.lt.sm ? 'name-sophrologue-phone' : 'name-sophrologue'
             "
-            >Clotilde Montheillet
+            >Clotilde Monteilhet
           </RouterLink>
         </q-toolbar-title>
         <q-btn
@@ -39,7 +39,9 @@
     </q-drawer>
 
     <q-page-container class="bg-accent">
-      <router-view />
+      <q-page class="q-px-xl">
+        <router-view />
+      </q-page>
       <!-- place QPageScroller at end of page -->
       <q-page-scroller
         position="bottom-right"
@@ -50,7 +52,7 @@
       </q-page-scroller>
     </q-page-container>
 
-    <q-footer class="bg-primary text-white">
+    <q-footer class="bg-black text-white">
       <q-toolbar>
         <q-toolbar-title>
           <div>footer</div>
