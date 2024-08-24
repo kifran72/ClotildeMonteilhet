@@ -1,5 +1,5 @@
 <template>
-  <q-page class="flex">
+  <q-page class="q-px-xl">
     <PresentationIntro />
     <CategoriesIntro />
   </q-page>
