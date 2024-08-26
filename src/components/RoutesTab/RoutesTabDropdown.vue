@@ -2,9 +2,9 @@
   <q-btn-dropdown
     flat
     fab
-    dense
     square
-    :class="$q.screen.lt.md ? 'full-width q-pa-md' : ''"
+    stretch
+    :class="$q.screen.lt.md ? 'full-width  q-pa-md' : ''"
     :content-class="$q.screen.lt.md ? 'no-box-shadow bg-primary' : ''"
     :label="Tab.data.label"
   >

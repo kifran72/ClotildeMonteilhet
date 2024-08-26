@@ -7,10 +7,7 @@
     :vertical="$q.screen.lt.md"
     :animated="$q.screen.lt.md"
   >
-    <div
-      v-if="$q.screen.lt.md"
-      class="flex justify-between q-pa-sm q-mb-md bg-secondary"
-    >
+    <div v-if="$q.screen.lt.md">
       <HeaderContact />
     </div>
 
@@ -23,7 +20,7 @@
       :class="
         $q.screen.lt.md
           ? 'flex flex-center justify-between absolute-bottom q-pa-md '
-          : 'flex flex-center justify-between'
+          : 'flex flex-center justify-between '
       "
     >
       <SocialLinks />
@@ -72,6 +69,12 @@ const tabs = [
   },
   {
     id: 5,
+    route: "/contact",
+    label: "Contact",
+    dropdown: null,
+  },
+  {
+    id: 6,
     route: null,
     label: "Autres pages",
     dropdown: [

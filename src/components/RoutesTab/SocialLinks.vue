@@ -7,7 +7,7 @@
     text-color="black"
     color="secondary"
     :icon="feed.icon"
-    :class="!$q.screen.lt.md ? 'q-mr-md' : ''"
+    :class="!$q.screen.lt.md ? 'q-ml-md ' : ''"
     :size="!$q.screen.lt.md ? 'sm' : 'md'"
   />
 </template>

@@ -3,24 +3,16 @@
     <q-header>
       <div
         v-if="!$q.screen.lt.md"
-        class="bg-secondary"
-        :class="
-          $q.screen.lt.md ? '' : 'flex justify-between separation-contact'
-        "
+        class="bg-primary"
+        :class="$q.screen.lt.md ? '' : 'flex justify-end separation-contact'"
       >
-        <RouterLink to="/" class="name-sophrologue text-black q-ml-md"
-          >Clotilde Monteilhet</RouterLink
-        >
         <div class="flex">
           <HeaderContact />
         </div>
       </div>
 
-      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-2'">
-        <q-toolbar-title
-          class="bg-primary"
-          v-if="$q.screen.lt.sm || $q.screen.lt.md"
-        >
+      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-3'">
+        <q-toolbar-title class="bg-primary">
           <RouterLink
             to="/"
             class="text-black"
@@ -40,10 +32,10 @@
           color="secondary"
           @click="toggleRightDrawer"
         />
-        <div class="flex justify-bettween">
+        <div class="flex justify-bettween full-height">
           <RoutesTab v-if="!$q.screen.lt.md" />
         </div>
-        <div class="flex justify-end">
+        <div class="flex justify-end no-wrap">
           <SocialLinks v-if="!$q.screen.lt.md" />
         </div>
       </q-toolbar>

@@ -56,6 +56,14 @@ a {
   grid-gap: 10px;
 }
 
+.text-special {
+  font-family: "Passions Conflict", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 6.5rem;
+  transform: rotate(-9deg);
+}
+
 .text-special-2 {
   font-family: "Edu TAS Beginner", cursive;
   font-optical-sizing: auto;
@@ -64,19 +72,12 @@ a {
   font-size: 1.5rem;
 }
 
-.text-special {
-  font-family: "Passions Conflict", cursive;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 5rem;
-  transform: rotate(-9deg);
-}
-
 .name-sophrologue {
   font-family: "Passions Conflict", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 4rem;
+  font-size: 3rem;
+  text-wrap: wrap;
 }
 
 .name-sophrologue-phone {

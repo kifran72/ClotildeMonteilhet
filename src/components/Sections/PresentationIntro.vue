@@ -15,8 +15,10 @@
       :style="$q.screen.lt.lg || $q.screen.lt.xl ? '' : 'max-width: 50rem'"
     />
     <div class="content-center">
-      <h2 class="text-special text-secondary q-pb-sm">Bienvenue !</h2>
-      <h4>Je suis Clotilde Monteilhet, Sophrologue à Coutras</h4>
+      <h2 class="text-special text-secondary">Bienvenue!</h2>
+      <h4 class="q-pt-md">
+        Je suis Clotilde Monteilhet, Sophrologue à Coutras
+      </h4>
       <p>
         À votre écoute pour vous accompagner dans votre bien-être personnel.
       </p>
