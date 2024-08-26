@@ -15,18 +15,17 @@
       :style="$q.screen.lt.lg || $q.screen.lt.xl ? '' : 'max-width: 50rem'"
     />
     <div class="content-center">
-      <h2 class="text-special text-secondary">Bienvenue !</h2>
+      <h2 class="text-special text-secondary q-pb-sm">Bienvenue !</h2>
       <h4>Je suis Clotilde Monteilhet, Sophrologue à Coutras</h4>
       <p>
         À votre écoute pour vous accompagner dans votre bien-être personnel.
       </p>
-      <div class="flex flex-center">
+      <div class="flex flex-center q-pt-xl">
         <RouterLink to="/about"
           ><q-btn
-            dense
             flat
-            label="EN SAVOIR + SUR MOI"
-            class="q-pl-md q-pr-md q-ma-lg bg-secondary"
+            label="En savoir + sur moi"
+            class="q-px-md q-py-sm bg-secondary btn-custom"
             color="white"
         /></RouterLink>
       </div>
@@ -39,3 +38,9 @@ defineOptions({
   name: "PresentationIntro",
 });
 </script>
+
+<style>
+.btn-custom {
+  border-radius: 5px 5px 5px 5px;
+}
+</style>

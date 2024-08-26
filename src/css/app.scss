@@ -24,14 +24,25 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+.q-btn-dropdown {
+  opacity: 0.85 !important;
+}
+
+.q-btn--fab .q-icon {
+  margin: 0;
+}
+
+// CUSTOM CLASS
 .wrapper {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px;
 }
 
 .wrapper-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 
 .wrapper-3 {
@@ -45,12 +56,20 @@ a {
   grid-gap: 10px;
 }
 
-.text-special {
+.text-special-2 {
   font-family: "Edu TAS Beginner", cursive;
   font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+.text-special {
+  font-family: "Passions Conflict", cursive;
   font-weight: 400;
   font-style: normal;
-  margin-bottom: 0;
+  font-size: 5rem;
+  transform: rotate(-9deg);
 }
 
 .name-sophrologue {
@@ -67,10 +86,9 @@ a {
   font-size: 2.8rem;
 }
 
-.q-btn-dropdown {
-  opacity: 0.85 !important;
-}
-
-.q-btn--fab .q-icon {
-  margin: 0;
+.separation-contact {
+  border-style: dotted;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }

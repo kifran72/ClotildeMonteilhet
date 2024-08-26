@@ -1,8 +1,10 @@
 <template>
   <div
-    class="bg-secondary customGridGap"
+    class="bg-secondary"
     :class="
-      $q.screen.lt.md ? 'wrapper customLayout' : 'wrapper-3  customLayout-3'
+      $q.screen.lt.md
+        ? 'wrapper customLayout'
+        : 'wrapper-3 customLayout-3 customGridGap'
     "
   >
     <q-btn
@@ -12,7 +14,7 @@
       text-color="white"
       :label="button.label"
       :to="button.link"
-      class="buttonSize"
+      class="buttonSize text-special-2"
     />
   </div>
 </template>
@@ -31,7 +33,7 @@ const buttons = [
 
 <style>
 .customLayout-3 {
-  padding: 10rem;
+  padding: 5rem;
 }
 .customLayout {
   padding: 3rem;

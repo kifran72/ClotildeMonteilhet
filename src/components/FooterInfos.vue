@@ -1,6 +1,6 @@
 <template>
   <div
-    class="q-pa-xl specialGridGap"
+    class="q-pa-xl specialGridGap fontSizeFooter"
     :class="!$q.screen.lt.md ? 'customWrapper' : 'wrapper-2'"
   >
     <img
@@ -10,8 +10,8 @@
     />
     <div class="column justify-between">
       <div>
-        <p>Clotilde Monteilhet</p>
-        <p>Sophrologue</p>
+        <p class="specialBold">Clotilde Monteilhet</p>
+        <p class="specialItalic">Sophrologue</p>
       </div>
       <div>
         <p>55 chemin de lauvirat</p>
@@ -56,7 +56,7 @@ defineOptions({
 }
 
 .fontSizeFooter p {
-  font-size: medium;
+  font-size: small;
 }
 
 .specialGridGap {
@@ -65,5 +65,8 @@ defineOptions({
 
 .specialBold {
   font-weight: bold;
+}
+.specialItalic {
+  font-style: italic;
 }
 </style>
