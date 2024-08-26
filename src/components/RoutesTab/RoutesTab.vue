@@ -7,16 +7,35 @@
     :vertical="$q.screen.lt.md"
     :animated="$q.screen.lt.md"
   >
+    <div
+      v-if="$q.screen.lt.md"
+      class="flex justify-between q-pa-sm q-mb-md bg-secondary"
+    >
+      <HeaderContact />
+    </div>
+
     <template v-for="tab in tabs" :key="tab.id">
       <RoutesTabSimple v-if="tab.dropdown === null" :data="tab" />
       <RoutesTabDropdown v-else :data="tab" />
     </template>
+    <div
+      v-if="$q.screen.lt.md"
+      :class="
+        $q.screen.lt.md
+          ? 'flex flex-center justify-between absolute-bottom q-pa-md '
+          : 'flex flex-center justify-between'
+      "
+    >
+      <SocialLinks />
+    </div>
   </q-tabs>
 </template>
 
 <script setup>
 import RoutesTabSimple from "./RoutesTabSimple.vue";
 import RoutesTabDropdown from "./RoutesTabDropdown.vue";
+import HeaderContact from "./HeaderContact.vue";
+import SocialLinks from "./SocialLinks.vue";
 
 defineOptions({
   name: "RoutesTab",

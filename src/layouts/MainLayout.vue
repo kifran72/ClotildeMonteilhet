@@ -1,7 +1,21 @@
 <template>
   <q-layout view="hhh lpR fff">
     <q-header>
-      <HeaderContact />
+      <div
+        v-if="!$q.screen.lt.md"
+        class="bg-secondary"
+        :class="
+          $q.screen.lt.md ? '' : 'flex justify-between separation-contact'
+        "
+      >
+        <RouterLink to="/" class="name-sophrologue text-black q-ml-md"
+          >Clotilde Monteilhet</RouterLink
+        >
+        <div class="flex">
+          <HeaderContact />
+        </div>
+      </div>
+
       <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-2'">
         <q-toolbar-title
           class="bg-primary"
@@ -26,20 +40,22 @@
           color="secondary"
           @click="toggleRightDrawer"
         />
-        <div class="flex justify-start">
+        <div class="flex justify-bettween">
           <RoutesTab v-if="!$q.screen.lt.md" />
         </div>
-        <SocialLinks v-if="!$q.screen.lt.md" />
+        <div class="flex justify-end">
+          <SocialLinks v-if="!$q.screen.lt.md" />
+        </div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer v-model="rightDrawerOpen" side="right" overlay bordered>
+    <q-drawer v-model="rightDrawerOpen" side="right" overlay>
       <!-- drawer content -->
       <RoutesTab />
     </q-drawer>
 
     <q-page-container class="bg-accent">
-      <q-page class="q-px-xl">
+      <q-page :class="$q.screen.lt.md || $q.screen.lt.lg ? 'q-pa-lg' : ''">
         <router-view />
       </q-page>
       <!-- place QPageScroller at end of page -->
@@ -53,11 +69,7 @@
     </q-page-container>
 
     <q-footer class="bg-black text-white">
-      <q-toolbar>
-        <q-toolbar-title>
-          <div>footer</div>
-        </q-toolbar-title>
-      </q-toolbar>
+      <FooterInfos />
     </q-footer>
   </q-layout>
 </template>
@@ -65,8 +77,9 @@
 <script setup>
 import { ref } from "vue";
 import RoutesTab from "../components/RoutesTab/RoutesTab.vue";
-import SocialLinks from "../components/SocialLinks.vue";
-import HeaderContact from "../components/HeaderContact.vue";
+import SocialLinks from "../components/RoutesTab/SocialLinks.vue";
+import HeaderContact from "../components/RoutesTab/HeaderContact.vue";
+import FooterInfos from "../components/FooterInfos.vue";
 
 const rightDrawerOpen = ref(false);
 const toggleRightDrawer = () => {
