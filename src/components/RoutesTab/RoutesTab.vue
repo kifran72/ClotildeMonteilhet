@@ -1,8 +1,8 @@
 <template>
   <q-tabs
     class="bg-primary text-black"
-    active-color="accent"
-    indicator-color="black"
+    active-color="secondary"
+    indicator-color="secondary"
     stretch
     :vertical="$q.screen.lt.md"
     :animated="$q.screen.lt.md"

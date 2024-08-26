@@ -6,7 +6,7 @@
     <div
       v-for="info in ContactInfos"
       :key="info.id"
-      class="flex flex-center q-pr-md text-secondary"
+      class="flex flex-center q-pr-md text-accent"
     >
       <q-icon :name="info.name" class="q-pr-sm" />
       {{ info.text }}
