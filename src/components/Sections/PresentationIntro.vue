@@ -4,20 +4,17 @@
       ($q.screen.lt.lg || $q.screen.lt.xl
         ? ''
         : 'full-width row no-wrap justify-center content-center') ||
-      ($q.screen.lt.md || $q.screen.lt.sm ? '' : 'wrapper-2')
+      ($q.screen.lt.md || $q.screen.lt.sm ? '' : 'wrapper-2') ||
+      (!$q.screen.lt.sm || !$q.screen.lt.xs ? 'q-pa-lg' : '')
     "
   >
     <img
       alt="Quasar logo"
       src="https://drive.google.com/thumbnail?id=1Hn8rdJ-ejrzlZsQCuLiV8eFp4cNxdiJW&sz=w1000"
-      :class="!$q.screen.lt.xl ? '' : 'q-pa-xl'"
       style="width: 100%; height: auto"
       :style="$q.screen.lt.lg || $q.screen.lt.xl ? '' : 'max-width: 50rem'"
     />
-    <div
-      class="content-center"
-      :class="!$q.screen.lt.xl ? 'column justify-center' : 'q-pa-xl'"
-    >
+    <div class="content-center">
       <h2 class="text-special text-secondary">Bienvenue !</h2>
       <h4>Je suis Clotilde Monteilhet, Sophrologue à Coutras</h4>
       <p>

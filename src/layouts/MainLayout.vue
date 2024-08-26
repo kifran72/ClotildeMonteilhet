@@ -55,7 +55,7 @@
     </q-drawer>
 
     <q-page-container class="bg-accent">
-      <q-page :class="$q.screen.lt.md || $q.screen.lt.lg ? 'q-pa-lg' : ''">
+      <q-page>
         <router-view />
       </q-page>
       <!-- place QPageScroller at end of page -->

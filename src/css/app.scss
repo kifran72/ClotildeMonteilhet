@@ -24,6 +24,11 @@ a {
   text-decoration: inherit; /* no underline */
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
 .wrapper-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

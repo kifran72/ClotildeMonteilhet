@@ -1,5 +1,6 @@
 <template>
   <PresentationIntro />
+  <CategoriesIntro />
 </template>
 
 <script setup>

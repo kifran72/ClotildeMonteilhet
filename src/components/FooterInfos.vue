@@ -20,14 +20,14 @@
     </div>
     <div>
       <p class="specialBold">LIENS</p>
-      <p>Accueil</p>
+      <RouterLink to="/"><p>Accueil</p></RouterLink>
       <p>Partenaires</p>
-      <p>Contact</p>
+      <RouterLink to="/contact"><p>Contact</p></RouterLink>
     </div>
     <div>
       <p class="specialBold">A PROPOS</p>
-      <p>Qui je suis</p>
-      <p>Blog</p>
+      <RouterLink to="/about"><p>Qui je suis</p></RouterLink>
+      <RouterLink to="/blog"><p>Blog</p></RouterLink>
       <p>Mentions légales</p>
     </div>
     <div class="socialLinkcolor">
