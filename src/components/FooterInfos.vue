@@ -62,11 +62,4 @@ defineOptions({
 .specialGridGap {
   grid-gap: 2rem;
 }
-
-.specialBold {
-  font-weight: bold;
-}
-.specialItalic {
-  font-style: italic;
-}
 </style>
