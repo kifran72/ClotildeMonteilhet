@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import SocialLinks from "./RoutesTab/SocialLinks.vue";
+import SocialLinks from "./SocialLinks.vue";
 defineOptions({
   name: "FooterInfos",
 });

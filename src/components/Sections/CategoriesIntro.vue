@@ -1,21 +1,19 @@
 <template>
   <div
     class="bg-secondary"
-    :class="
-      $q.screen.lt.md
-        ? 'wrapper customLayout'
-        : 'wrapper-3 customLayout-3 customGridGap'
-    "
+    :class="$q.screen.lt.md ? 'customLayout' : 'customLayout-3'"
   >
-    <q-btn
-      v-for="button in buttons"
-      :key="button.id"
-      color="primary"
-      text-color="white"
-      :label="button.label"
-      :to="button.link"
-      class="buttonSize text-special-2"
-    />
+    <div :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-3 customGridGap'">
+      <div v-for="button in buttons" :key="button.id" class="flex flex-center">
+        <q-btn
+          :label="button.label"
+          :to="button.link"
+          color="primary"
+          text-color="white"
+          class="buttonSize text-special-2"
+        />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -44,6 +42,7 @@ const buttons = [
 }
 
 .buttonSize {
-  height: 10rem;
+  height: 8rem;
+  width: 15rem;
 }
 </style>

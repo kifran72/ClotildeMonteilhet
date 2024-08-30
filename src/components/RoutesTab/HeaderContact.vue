@@ -6,7 +6,7 @@
     <div
       v-for="info in ContactInfos"
       :key="info.id"
-      class="flex flex-center q-pr-md text-accent"
+      class="flex flex-center q-pr-md text-black"
     >
       <q-icon :name="info.name" class="q-pr-sm" />
       {{ info.text }}
@@ -16,17 +16,7 @@
     :class="
       $q.screen.lt.md ? 'flex flex-center q-pa-sm' : 'flex flex-center q-pr-md'
     "
-  >
-    <q-btn
-      color="secondary"
-      :dense="$q.screen.lt.md"
-      to="/appointments"
-      label="Rendez-vous"
-      :size="$q.screen.lt.md ? '' : ''"
-      :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"
-      :unelevated="$q.screen.lt.md"
-    />
-  </div>
+  ></div>
 </template>
 
 <script setup>

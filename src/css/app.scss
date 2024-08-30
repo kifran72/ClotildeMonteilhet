@@ -62,6 +62,7 @@ a {
   font-style: normal;
   font-size: 6.5rem;
   transform: rotate(-9deg);
+  margin: 0;
 }
 
 .text-special-2 {
@@ -88,8 +89,8 @@ a {
 }
 
 .separation-contact {
-  border-style: dotted;
-  border-width: 0px 0px 1px 0px;
-  border-color: #ffffff;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #668555;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }

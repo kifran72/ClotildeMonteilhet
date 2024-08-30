@@ -1,18 +1,18 @@
 <template>
   <q-layout view="hhh lpR fff">
-    <q-header>
+    <q-header class="bg-accent">
       <div
         v-if="!$q.screen.lt.md"
         class="bg-primary"
-        :class="$q.screen.lt.md ? '' : 'flex justify-end separation-contact'"
+        :class="$q.screen.lt.md ? '' : 'flex justify-end'"
       >
-        <div class="flex">
+        <!-- <div class="flex" >
           <HeaderContact />
-        </div>
+        </div> -->
       </div>
 
-      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-3'">
-        <q-toolbar-title class="bg-primary">
+      <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-3 '">
+        <q-toolbar-title class="bg-accent">
           <RouterLink
             to="/"
             class="text-black"
@@ -32,11 +32,19 @@
           color="secondary"
           @click="toggleRightDrawer"
         />
-        <div class="flex justify-bettween full-height">
-          <RoutesTab v-if="!$q.screen.lt.md" />
+        <div class="flex justify-bettween full-height" v-if="!$q.screen.lt.md">
+          <RoutesTab />
         </div>
-        <div class="flex justify-end no-wrap">
-          <SocialLinks v-if="!$q.screen.lt.md" />
+        <div class="flex justify-end" v-if="!$q.screen.lt.md">
+          <q-btn
+            color="secondary"
+            :dense="$q.screen.lt.md"
+            to="/appointments"
+            label="Rendez-vous"
+            :size="$q.screen.lt.md ? '' : ''"
+            :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"
+            :unelevated="$q.screen.lt.md"
+          />
         </div>
       </q-toolbar>
     </q-header>
@@ -69,7 +77,7 @@
 <script setup>
 import { ref } from "vue";
 import RoutesTab from "../components/RoutesTab/RoutesTab.vue";
-import SocialLinks from "../components/RoutesTab/SocialLinks.vue";
+import SocialLinks from "../components/SocialLinks.vue";
 import HeaderContact from "../components/RoutesTab/HeaderContact.vue";
 import FooterInfos from "../components/FooterInfos.vue";
 

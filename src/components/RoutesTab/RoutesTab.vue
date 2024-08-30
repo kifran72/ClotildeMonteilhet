@@ -1,38 +1,37 @@
 <template>
   <q-tabs
-    class="bg-primary text-black"
+    class="bg-accent text-black"
+    :class="$q.screen.lt.md ? 'q-pa-md' : ''"
     active-color="secondary"
     indicator-color="secondary"
     stretch
     :vertical="$q.screen.lt.md"
     :animated="$q.screen.lt.md"
   >
-    <div v-if="$q.screen.lt.md">
-      <HeaderContact />
-    </div>
-
     <template v-for="tab in tabs" :key="tab.id">
       <RoutesTabSimple v-if="tab.dropdown === null" :data="tab" />
       <RoutesTabDropdown v-else :data="tab" />
     </template>
-    <div
-      v-if="$q.screen.lt.md"
-      :class="
-        $q.screen.lt.md
-          ? 'flex flex-center justify-between absolute-bottom q-pa-md '
-          : 'flex flex-center justify-between '
-      "
-    >
-      <SocialLinks />
-    </div>
   </q-tabs>
+  <div
+    v-if="$q.screen.lt.md"
+    class="flex flex-center justify-between absolute-bottom q-pa-md"
+  >
+    <q-btn
+      color="secondary"
+      :dense="$q.screen.lt.md"
+      to="/appointments"
+      label="Rendez-vous"
+      :size="$q.screen.lt.md ? '' : ''"
+      :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"
+      :unelevated="$q.screen.lt.md"
+    />
+  </div>
 </template>
 
 <script setup>
 import RoutesTabSimple from "./RoutesTabSimple.vue";
 import RoutesTabDropdown from "./RoutesTabDropdown.vue";
-import HeaderContact from "./HeaderContact.vue";
-import SocialLinks from "./SocialLinks.vue";
 
 defineOptions({
   name: "RoutesTab",
