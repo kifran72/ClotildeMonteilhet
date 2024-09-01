@@ -1,6 +1,6 @@
 <template>
   <div
-    class="q-pa-xl specialGridGap fontSizeFooter"
+    class="q-pa-xl specialGridGap-2 fontSizeFooter"
     :class="!$q.screen.lt.md ? 'customWrapper' : 'wrapper-2'"
   >
     <img
@@ -57,9 +57,5 @@ defineOptions({
 
 .fontSizeFooter p {
   font-size: small;
-}
-
-.specialGridGap {
-  grid-gap: 2rem;
 }
 </style>
