@@ -1,7 +1,5 @@
 <template>
-  <q-page class="flex">
-    <h2>Rendez-vous</h2>
-  </q-page>
+  <h2>Rendez-vous</h2>
 </template>
 
 <script setup>

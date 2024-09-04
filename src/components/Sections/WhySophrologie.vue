@@ -17,7 +17,7 @@
           "
         >
           <h4 style="margin-top: 0">Pourquoi la Sophrologie?</h4>
-          <p class="specialItalic">
+          <p class="text-italic">
             La sophrologie aide à se recentrer sur sois et ses émotions, elle
             permets d'apprendre à écouter son corps et ses ressentis. Sa
             pratique régulière vous aide à vous reconnecter avec vous même, à
@@ -25,7 +25,7 @@
             les tensions négatives et de faire le ménage avec vos blocages.
           </p>
           <div>
-            <p v-for="Rule in Rules" :key="Rule" class="specialBold">
+            <p v-for="Rule in Rules" :key="Rule" class="text-bold">
               {{ Rule }}
             </p>
           </div>

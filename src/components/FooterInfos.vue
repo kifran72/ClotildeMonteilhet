@@ -10,8 +10,8 @@
     />
     <div class="column justify-between">
       <div>
-        <p class="specialBold">Clotilde Monteilhet</p>
-        <p class="specialItalic">Sophrologue</p>
+        <p class="text-bold">Clotilde Monteilhet</p>
+        <p class="text-italic">Sophrologue</p>
       </div>
       <div>
         <p>55 chemin de lauvirat</p>
@@ -19,19 +19,19 @@
       </div>
     </div>
     <div>
-      <p class="specialBold">LIENS</p>
+      <p class="text-bold">LIENS</p>
       <RouterLink to="/"><p>Accueil</p></RouterLink>
       <p>Partenaires</p>
       <RouterLink to="/contact"><p>Contact</p></RouterLink>
     </div>
     <div>
-      <p class="specialBold">A PROPOS</p>
+      <p class="text-bold">A PROPOS</p>
       <RouterLink to="/about"><p>Qui je suis</p></RouterLink>
       <RouterLink to="/blog"><p>Blog</p></RouterLink>
       <p>Mentions légales</p>
     </div>
     <div>
-      <p class="specialBold">RÉSEAUX</p>
+      <p class="text-bold">RÉSEAUX</p>
       <SocialLinks />
     </div>
   </div>

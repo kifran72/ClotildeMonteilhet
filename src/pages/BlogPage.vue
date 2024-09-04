@@ -1,7 +1,5 @@
 <template>
-  <q-page class="flex">
-    <ArticlesIntro />
-  </q-page>
+  <ArticlesIntro />
 </template>
 
 <script setup>
