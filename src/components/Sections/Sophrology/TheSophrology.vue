@@ -21,9 +21,9 @@
     </p>
     <p>
       Elle s'inspire de nombreuses techniques déjà exitantes comme le l'hypnose,
-      la relaxation, la méthode coué, le training autogène de shultz , la
-      méthode Vittos et tire également son enseignement de techniques orientales
-      comme le yoga indien, le ZEN japonais et le Tummo Tibétain Elle veut dire
+      la relaxation, la méthode coué, le training autogène de shultz, la méthode
+      Vittos et tire également son enseignement de techniques orientales comme
+      le yoga indien, le ZEN japonais et le Tummo Tibétain Elle veut dire
       "Vivance de la conscience en équilibre".
     </p>
     <p>
@@ -45,7 +45,7 @@
       Cette methode permet de stoper un dialogue intérieur négatif provoqué par
       de fausses croyances amenant du stress et de l'anxiété et de remplacer
       celui ci par des injonctions positives pour aider à sortir de la spirale
-      répétitive, t'elle que " je n'y arriverai pas, je ne peux pas, c'est
+      répétitive, t'elle que "je n'y arriverai pas, je ne peux pas, c'est
       impossible, c'est perdu d'avance...... Voila pourquoi la sophrologie vise
       à l'harmonie du corps et de l'esprit et devient un véritable champ
       d'observation de sa propre vie en invitant tout un chacun à plus de recul
