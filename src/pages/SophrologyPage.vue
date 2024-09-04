@@ -1,11 +1,11 @@
 <template>
   <q-page class="flex">
-    <h2>Prix</h2>
+    <h2>SophrologyPage</h2>
   </q-page>
 </template>
 
 <script setup>
 defineOptions({
-  name: "PricePage",
+  name: "SophrologyPage",
 });
 </script>

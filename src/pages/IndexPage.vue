@@ -7,11 +7,11 @@
 </template>
 
 <script setup>
-import PresentationIntro from "../components/Sections/PresentationIntro.vue";
-import CategoriesIntro from "../components/Sections/CategoriesIntro.vue";
+import PresentationIntro from "../components/Sections/Home/PresentationIntro.vue";
+import CategoriesIntro from "../components/Sections/Home/CategoriesIntro.vue";
 import WhySophrologie from "../components/Sections/WhySophrologie.vue";
-import BreatheTime from "../components/Sections/BreatheTime.vue";
-import ArticlesIntro from "../components/Sections/ArticlesIntro.vue";
+import BreatheTime from "../components/Sections/Home/BreatheTime.vue";
+import ArticlesIntro from "../components/Sections/Home/ArticlesIntro.vue";
 
 defineOptions({
   name: "IndexPage",

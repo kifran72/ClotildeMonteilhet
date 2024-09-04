@@ -1,16 +1,6 @@
 <template>
   <q-layout view="hhh lpR fff">
     <q-header class="bg-accent">
-      <div
-        v-if="!$q.screen.lt.md"
-        class="bg-primary"
-        :class="$q.screen.lt.md ? '' : 'flex justify-end'"
-      >
-        <!-- <div class="flex" >
-          <HeaderContact />
-        </div> -->
-      </div>
-
       <q-toolbar :class="$q.screen.lt.md ? '' : 'wrapper-3 '">
         <q-toolbar-title class="bg-accent">
           <RouterLink
@@ -37,6 +27,7 @@
         </div>
         <div class="flex justify-end" v-if="!$q.screen.lt.md">
           <q-btn
+            disable
             color="secondary"
             :dense="$q.screen.lt.md"
             to="/appointments"
@@ -77,8 +68,6 @@
 <script setup>
 import { ref } from "vue";
 import RoutesTab from "../components/RoutesTab/RoutesTab.vue";
-import SocialLinks from "../components/SocialLinks.vue";
-import HeaderContact from "../components/RoutesTab/HeaderContact.vue";
 import FooterInfos from "../components/FooterInfos.vue";
 
 const rightDrawerOpen = ref(false);

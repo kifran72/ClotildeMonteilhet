@@ -1,10 +1,11 @@
 <template>
   <q-page class="flex">
-    <h2>Blog</h2>
+    <ArticlesIntro />
   </q-page>
 </template>
 
 <script setup>
+import ArticlesIntro from "src/components/Sections/Home/ArticlesIntro.vue";
 defineOptions({
   name: "BlogPage",
 });

@@ -9,7 +9,7 @@
     :animated="$q.screen.lt.md"
   >
     <template v-for="tab in tabs" :key="tab.id">
-      <RoutesTabSimple v-if="tab.dropdown === null" :data="tab" />
+      <RoutesTabSimple v-if="tab.dropdown === null" :data="{ ...tab }" />
       <RoutesTabDropdown v-else :data="tab" />
     </template>
   </q-tabs>
@@ -25,6 +25,7 @@
       :size="$q.screen.lt.md ? '' : ''"
       :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"
       :unelevated="$q.screen.lt.md"
+      disable
     />
   </div>
 </template>
@@ -43,43 +44,49 @@ const tabs = [
     route: "/",
     label: "Accueil",
     dropdown: null,
+    disable: false,
   },
   {
     id: 2,
     route: "/about",
     label: "Clotilde",
     dropdown: null,
+    disable: true,
   },
   {
     id: 3,
     route: "/method",
     label: "La méthode",
     dropdown: [
-      { id: 1, route: "", label: "La Sophrologie" },
-      { id: 2, route: "", label: "Les Séances" },
-      { id: 3, route: "", label: "Codes Déontologiques" },
+      { id: 1, route: "/sophrology", label: "La Sophrologie", disable: false },
+      { id: 2, route: "", label: "Les Séances", disable: true },
+      { id: 3, route: "", label: "Codes Déontologiques", disable: true },
     ],
+    disable: false,
   },
   {
     id: 4,
     route: "/prices",
     label: "Tarifs",
     dropdown: null,
+    disable: true,
   },
   {
     id: 5,
     route: "/contact",
     label: "Contact",
     dropdown: null,
+    disable: true,
   },
   {
     id: 6,
     route: null,
     label: "Autres pages",
     dropdown: [
-      { id: 1, route: "", label: "Foire Aux Questions" },
-      { id: 1, route: "/blog", label: "Blog" },
+      { id: 1, route: "", label: "Foire Aux Questions", disable: true },
+      { id: 2, route: "/blog", label: "Blog", disable: false },
     ],
+    disable: false,
   },
 ];
 </script>

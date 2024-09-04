@@ -1,9 +1,11 @@
 <template>
   <q-btn
+    class="socialLinkcolor"
     v-for="feed in socialfeed"
     :key="feed.id"
-    flat
     round
+    outline
+    flat
     text-color="black"
     color="secondary"
     :icon="feed.icon"
@@ -24,3 +26,9 @@ defineOptions({
   name: "SocialLinks",
 });
 </script>
+
+<style>
+.socialLinkcolor {
+  color: white !important;
+}
+</style>

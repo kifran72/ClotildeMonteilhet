@@ -4,11 +4,22 @@ const routes = [
     component: () => import("layouts/MainLayout.vue"),
     children: [
       { path: "", component: () => import("pages/IndexPage.vue") },
-      { path: "method", component: () => import("pages/MethodPage.vue") },
       { path: "about", component: () => import("pages/AboutPage.vue") },
+      { path: "method", component: () => import("pages/MethodPage.vue") },
+      {
+        path: "sophrology",
+        component: () => import("pages/SophrologyPage.vue"),
+      },
       { path: "prices", component: () => import("pages/PricePage.vue") },
       { path: "contact", component: () => import("pages/ContactPage.vue") },
-      { path: "blog", component: () => import("pages/BlogPage.vue") },
+      {
+        path: "blog",
+        component: () => import("pages/BlogPage.vue"),
+      },
+      {
+        path: "blog/:nameArticle",
+        component: () => import("pages/ArticlePage.vue"),
+      },
       { path: "account", component: () => import("pages/AccountPage.vue") },
       {
         path: "appointments",

@@ -4,6 +4,7 @@
     :key="Tab.data.id"
     :to="Tab.data.route"
     :label="Tab.data.label"
+    :disable="Tab.data.disable"
   />
 </template>
 

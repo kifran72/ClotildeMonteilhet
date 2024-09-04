@@ -30,7 +30,7 @@
       <RouterLink to="/blog"><p>Blog</p></RouterLink>
       <p>Mentions légales</p>
     </div>
-    <div class="socialLinkcolor">
+    <div>
       <p class="specialBold">RÉSEAUX</p>
       <SocialLinks />
     </div>
@@ -49,10 +49,6 @@ defineOptions({
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 10px;
-}
-
-.socialLinkcolor button {
-  color: white !important;
 }
 
 .fontSizeFooter p {
