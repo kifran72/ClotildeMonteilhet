@@ -59,8 +59,13 @@ const tabs = [
     label: "La méthode",
     dropdown: [
       { id: 1, route: "/sophrology", label: "La Sophrologie", disable: false },
-      { id: 2, route: "", label: "Les Séances", disable: true },
-      { id: 3, route: "", label: "Codes Déontologiques", disable: true },
+      { id: 2, route: "/session", label: "Les Séances", disable: false },
+      {
+        id: 3,
+        route: "/ethics",
+        label: "Codes Déontologiques",
+        disable: false,
+      },
     ],
     disable: false,
   },
@@ -76,7 +81,7 @@ const tabs = [
     route: "/contact",
     label: "Contact",
     dropdown: null,
-    disable: true,
+    disable: false,
   },
   {
     id: 6,

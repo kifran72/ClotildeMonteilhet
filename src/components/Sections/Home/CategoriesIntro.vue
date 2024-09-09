@@ -23,8 +23,8 @@ defineOptions({
 });
 
 const buttons = [
-  { id: 1, label: "Séances", link: "" },
-  { id: 2, label: "Cabinet", link: "" },
+  { id: 1, label: "Séances", link: "/session" },
+  { id: 2, label: "Cabinet", link: "/contact" },
   { id: 3, label: "Tarifs", link: "/prices" },
 ];
 </script>
@@ -34,7 +34,8 @@ const buttons = [
   padding: 5rem;
 }
 .customLayout {
-  padding: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .customGridGap {

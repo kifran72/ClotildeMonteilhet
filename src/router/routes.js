@@ -10,6 +10,14 @@ const routes = [
         path: "sophrology",
         component: () => import("pages/SophrologyPage.vue"),
       },
+      {
+        path: "session",
+        component: () => import("pages/SessionPage.vue"),
+      },
+      {
+        path: "ethics",
+        component: () => import("pages/EthicsPage.vue"),
+      },
       { path: "prices", component: () => import("pages/PricePage.vue") },
       { path: "contact", component: () => import("pages/ContactPage.vue") },
       {

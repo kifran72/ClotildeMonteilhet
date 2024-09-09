@@ -1,9 +1,12 @@
 <template>
-  <div class="text-center q-pb-xl">
+  <div class="text-center q-pb-xl q-px-xl">
     <h3 class="text-bold" style="margin: 0">Ses bienfaits, sa pratique</h3>
     <h3 class="text-italic" style="margin: 0">Méthode spycho-corporelle</h3>
   </div>
-  <div class="bg-primary customLayout">
+  <div
+    class="bg-primary"
+    :class="$q.screen.lt.md ? 'customLayout' : 'customLayout-3'"
+  >
     <h3 class="text-center q-pb-xl" style="margin: 0">Ses outils</h3>
     <div :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-3 customGridGap'">
       <div v-for="button in buttons" :key="button.id" class="flex flex-center">
@@ -32,8 +35,12 @@ const buttons = [
 </script>
 
 <style>
-.customLayout {
+.customLayout-3 {
   padding: 3rem;
+}
+.customLayout {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .customGridGap {
