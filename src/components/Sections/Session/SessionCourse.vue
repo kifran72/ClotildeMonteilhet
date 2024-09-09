@@ -4,18 +4,19 @@
     style="grid-gap: 2rem"
   >
     <q-img
-      src="https://drive.google.com/thumbnail?id=1Mn7wzaG8RZkRyqoQwv62TiJLWnEmx0Ku&sz=w1000"
+      src="https://drive.google.com/thumbnail?id=1UDlDxPpDaSIlZSKKZtDhbcb0pFgYYS9k&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
     <div>
       <h3 style="margin: 0">Déroulé</h3>
-      <p class="text-italic">d’une séance collective en visio</p>
+      <p class="text-italic q-pb-xl">d’une séance collective en visio</p>
       <p>Séance non personnalisée, avec un thème.</p>
       <p>
         Celle ci se déroulera avec plusieurs participants, y sera intégrée
         quelques relaxations dynamiques et une sophronisation adaptée au thème
         choisi.
       </p>
-      <div class="flex flex-center">
+      <div class="flex flex-center q-pt-xl">
         <RouterLink to="/contact"
           ><q-btn
             flat

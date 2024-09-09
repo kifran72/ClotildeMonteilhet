@@ -1,11 +1,16 @@
 <template>
   <div :class="$q.screen.lt.md ? 'wrapper q-pa-md' : 'wrapper-2 q-pa-xl'">
+    <q-img
+      v-if="$q.screen.lt.md"
+      src="https://drive.google.com/thumbnail?id=1Mn7wzaG8RZkRyqoQwv62TiJLWnEmx0Ku&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
+    />
     <div class="column flex-center">
       <h3
         class="text-special"
         :style="
           $q.screen.lt.md
-            ? 'font-size:4rem;padding-bottom: 2rem'
+            ? 'font-size:4rem;padding-bottom: 2rem;padding-top: 2rem'
             : 'padding-bottom: 5rem'
         "
       >
@@ -20,7 +25,9 @@
       /></RouterLink>
     </div>
     <q-img
+      v-if="!$q.screen.lt.md"
       src="https://drive.google.com/thumbnail?id=1Mn7wzaG8RZkRyqoQwv62TiJLWnEmx0Ku&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
   </div>
 </template>

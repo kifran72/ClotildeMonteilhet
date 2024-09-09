@@ -3,6 +3,11 @@
     :class="$q.screen.lt.md ? 'wrapper q-pa-md' : 'wrapper-2 q-pa-xl'"
     style="grid-gap: 2rem"
   >
+    <q-img
+      v-if="$q.screen.lt.md"
+      src="https://drive.google.com/thumbnail?id=1cHhrLUbsXAxAM1U_bnljiGuHsM7_haKd&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
+    />
     <div>
       <div
         :class="
@@ -26,7 +31,9 @@
       </p>
     </div>
     <q-img
+      v-if="!$q.screen.lt.md"
       src="https://drive.google.com/thumbnail?id=1cHhrLUbsXAxAM1U_bnljiGuHsM7_haKd&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
   </div>
 </template>

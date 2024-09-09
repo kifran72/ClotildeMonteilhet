@@ -10,6 +10,7 @@
   >
     <q-img
       src="https://drive.google.com/thumbnail?id=1sABT9X5SkZ5h-ZZsy08fBtORz_uvNmqY&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
     <div>
       <div

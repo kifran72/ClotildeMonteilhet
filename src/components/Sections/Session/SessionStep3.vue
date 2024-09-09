@@ -5,6 +5,7 @@
   >
     <q-img
       src="https://drive.google.com/thumbnail?id=12V0TK50-nzRZAhY6CepoBECkrtMuIH-D&sz=w1000"
+      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
     <div>
       <div
