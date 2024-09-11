@@ -1,6 +1,6 @@
 <template>
-  <div class="text-center q-pa-md">
-    <h3>Les séances</h3>
+  <div class="text-center q-pa-xl">
+    <h2 class="text-secondary" style="margin: 0">Les séances</h2>
     <p class="text-italic">“Une methode Complète, un suivi personnalisé”</p>
     <p class="text-bold">Déroulé des séances en Individuel</p>
   </div>

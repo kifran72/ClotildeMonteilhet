@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-center">
-    <h4>Infos pratiques</h4>
+    <h2 class="text-secondary q-pa-md">Infos pratiques</h2>
   </div>
   <div
     :class="$q.screen.lt.md ? 'wrapper q-pa-md' : 'wrapper-2 q-pa-xl'"

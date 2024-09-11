@@ -1,8 +1,9 @@
 <template>
   <div class="text-center" :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
-    <h4 :class="$q.screen.lt.md ? 'q-pb-md' : 'q-pb-xl'">
-      Code de déontologie, propre à la pratique de la sophrologie
-    </h4>
+    <h2 class="text-secondary" style="margin: 0">Code de déontologie</h2>
+    <p class="text-italic" :class="$q.screen.lt.md ? 'q-pb-md' : 'q-pb-xl'">
+      "Propre à la pratique de la sophrologie"
+    </p>
     <div class="text-left">
       <p>
         Le présent code de déontologie est propre à tous les sophrologues formés

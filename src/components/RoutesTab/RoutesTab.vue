@@ -51,7 +51,7 @@ const tabs = [
     route: "/about",
     label: "Clotilde",
     dropdown: null,
-    disable: true,
+    disable: false,
   },
   {
     id: 3,
@@ -74,7 +74,7 @@ const tabs = [
     route: "/prices",
     label: "Tarifs",
     dropdown: null,
-    disable: true,
+    disable: false,
   },
   {
     id: 5,

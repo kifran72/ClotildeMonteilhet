@@ -1,7 +1,10 @@
 <template>
-  <div class="column flex-center q-pa-xl">
+  <div
+    class="column flex-center"
+    :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'"
+  >
     <h2 class="text-secondary" style="margin: 0">Articles</h2>
-    <div class="q-pt-xl" :class="$q.screen.lt.md ? 'wrapper ' : 'wrapper-3'">
+    <div class="q-pt-xl" :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-3'">
       <q-btn
         v-for="Article in Articles"
         :key="Article"
