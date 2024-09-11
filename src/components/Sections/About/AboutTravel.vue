@@ -29,7 +29,7 @@
       />
     </div>
   </div>
-  <div class="text-center q-pa-xl">
+  <div class="text-center" style="padding: 8rem 0 8rem 0">
     <h3 class="text-secondary" style="margin: 0">Pour vous accompagner</h3>
     <h4 class="text-italic" style="margin: 0">“Dans le mieux être”</h4>
   </div>

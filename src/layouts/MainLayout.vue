@@ -27,10 +27,9 @@
         </div>
         <div class="flex justify-end" v-if="!$q.screen.lt.md">
           <q-btn
-            disable
             color="secondary"
             :dense="$q.screen.lt.md"
-            to="/appointments"
+            to="/contact"
             label="Rendez-vous"
             :size="$q.screen.lt.md ? '' : ''"
             :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"

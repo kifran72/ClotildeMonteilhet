@@ -88,7 +88,12 @@ const tabs = [
     route: null,
     label: "Autres pages",
     dropdown: [
-      { id: 1, route: "", label: "Foire Aux Questions", disable: true },
+      {
+        id: 1,
+        route: "/frequentlyAskedQuestions",
+        label: "Foire Aux Questions",
+        disable: false,
+      },
       { id: 2, route: "/blog", label: "Blog", disable: false },
     ],
     disable: false,

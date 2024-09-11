@@ -28,6 +28,10 @@ const routes = [
         path: "blog/:nameArticle",
         component: () => import("pages/ArticlePage.vue"),
       },
+      {
+        path: "frequentlyAskedQuestions",
+        component: () => import("pages/FrequentlyAskedQuestions.vue"),
+      },
       { path: "account", component: () => import("pages/AccountPage.vue") },
       {
         path: "appointments",
