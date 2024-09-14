@@ -23,7 +23,7 @@
     </div>
   </div>
   <q-img
-    src="https://drive.google.com/thumbnail?id=1UDlDxPpDaSIlZSKKZtDhbcb0pFgYYS9k&sz=w1000"
+    src="https://drive.google.com/thumbnail?id=1FSQXucvIuqOer23aDX04R171tGVrKUy-&sz=w1000"
   >
     <div
       v-if="!$q.screen.lt.md"

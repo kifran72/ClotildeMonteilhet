@@ -1,7 +1,7 @@
 <template>
   <div class="bg-primary" :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-2'">
     <div class="q-pa-xl">
-      <h3>Mon parcours</h3>
+      <h3 class="text-black">Mon parcours</h3>
       <p>
         Ayant eu une formation dans les arts plastiques et graphiques , j'ai mis
         toute ma creativité au service de la petite enfance pendant 15 ans. Le
@@ -24,7 +24,7 @@
     </div>
     <div class="q-pa-xl">
       <q-img
-        src="https://drive.google.com/thumbnail?id=1ZUwdKNtJeXDkYGRSHFsLSdbwb1d92ou4&sz=w1000"
+        src="https://drive.google.com/thumbnail?id=1pedi_BbMjwWUPJ0m1o0E7heWwlgCjigf&sz=w1000"
         style="height: 100%; width: 100%"
       />
     </div>

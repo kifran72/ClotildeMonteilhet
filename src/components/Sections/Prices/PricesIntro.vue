@@ -25,10 +25,10 @@
     </div>
   </q-img>
   <div class="text-center bg-secondary q-pa-xl">
-    <h4 class="text-italic text-white" style="margin: 0">
+    <p class="text-italic text-white" style="margin: 0; font-size: 25px">
       Premier contact de découverte de 15 minutes
       <span class="text-bold">gratuit</span> (voyons ensemble vos besoins)
-    </h4>
+    </p>
     <div class="flex flex-center q-pt-xl">
       <RouterLink to=""
         ><q-btn

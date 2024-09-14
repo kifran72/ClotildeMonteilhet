@@ -8,7 +8,7 @@
     <div :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-2'">
       <div :style="$q.screen.lt.md ? 'padding: 1rem' : 'padding: 5rem'">
         <q-img
-          src="https://drive.google.com/thumbnail?id=1_HmEWenzQrM_aQG76RdfLBs_Gd6YtYZN&sz=w1000"
+          src="https://drive.google.com/thumbnail?id=1XokD5B-FNaGp-bfox9hI4TQ-UV6nbkTP&sz=w1000"
           style="height: 100%; width: 100%"
         />
       </div>
@@ -27,11 +27,12 @@
           </q-card-section>
           <q-card-section class="text-center">
             <h3 class="q-pa-lg" style="margin: 0">sur devis</h3>
-            <p class="q-pa-lg" style="margin: 0">Nous construirons ensemble</p>
-            <q-separator />
-            <p class="q-pa-lg" style="margin: 0">
-              Un atelier répondant à vos attentes et à vos objectifs
-            </p>
+            <div class="q-pa-lg">
+              <p style="margin: 0">Nous construirons ensemble</p>
+              <p style="margin: 0">
+                Un atelier répondant à vos attentes et à vos objectifs
+              </p>
+            </div>
           </q-card-section>
         </q-card>
       </div>

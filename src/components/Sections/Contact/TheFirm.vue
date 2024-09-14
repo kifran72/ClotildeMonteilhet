@@ -12,7 +12,7 @@
     </h3>
     <q-img
       class="q-mt-xl"
-      src="https://drive.google.com/thumbnail?id=1gJ6HW2LuzCdv_FOyS9dMvaOer-SNsGb7&sz=w1000"
+      src="https://drive.google.com/thumbnail?id=1CRBbx4_2SXUDKdB8_PWe96kpCWSlA0Q7&sz=w1000"
       style="height: 35rem"
     />
   </div>

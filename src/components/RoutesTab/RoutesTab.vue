@@ -20,12 +20,11 @@
     <q-btn
       color="secondary"
       :dense="$q.screen.lt.md"
-      to="/appointments"
+      to="/contact"
       label="Rendez-vous"
       :size="$q.screen.lt.md ? '' : ''"
       :class="$q.screen.lt.md ? 'full-width q-pa-md' : 'q-my-md'"
       :unelevated="$q.screen.lt.md"
-      disable
     />
   </div>
 </template>

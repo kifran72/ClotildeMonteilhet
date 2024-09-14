@@ -114,6 +114,13 @@
         sophrologues s’engagent à respecter et à faire respecter la législation
         en vigueur.
       </p>
+
+      <div class="flex flex-center">
+        <q-img
+          src="https://drive.google.com/thumbnail?id=1pfUegtR-eOJ0qyT6KQHA167ODc4cDpyU&sz=w1000"
+          style="max-width: 15rem"
+        />
+      </div>
     </div>
   </div>
 </template>

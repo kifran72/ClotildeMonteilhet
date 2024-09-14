@@ -4,7 +4,8 @@
     style="grid-gap: 2rem"
   >
     <q-img
-      src="https://drive.google.com/thumbnail?id=1UDlDxPpDaSIlZSKKZtDhbcb0pFgYYS9k&sz=w1000"
+      class="bg-primary"
+      src="https://drive.google.com/thumbnail?id=1rXHkR5ZiyhUwZ7zlSQA0dBoMeBqLiqRf&sz=w1000"
       :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
     <div>

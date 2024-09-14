@@ -1,9 +1,13 @@
 <template>
   <div :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
-    <h3 class="text-bold text-center">Foire aux questions</h3>
-    <h4 class="text-secondary text-center">
-      Vous vous posez des questions sur la Sophrologie ?
-    </h4>
+    <h3 class="text-bold text-center" style="margin: 0">Foire aux questions</h3>
+    <div class="flex flex-center">
+      <q-img
+        class="q-mt-xl"
+        src="https://drive.google.com/thumbnail?id=11FGTylnx29E16sHxkOul__CJxHCnrWUa&sz=w1000"
+        style="max-width: 35rem"
+      />
+    </div>
     <div v-for="question in Questions" :key="question" class="q-pt-xl">
       <p class="text-bold">{{ question.title }}</p>
       <p>{{ question.content }}</p>
@@ -16,10 +20,7 @@
     <h4 class="text-secondary text-center">
       Une autre question sur la Sophrologie ?
     </h4>
-    <div
-      class="flex flex-center"
-      :class="$q.screen.lt.md ? 'q-pb-lg' : 'q-py-lg'"
-    >
+    <div class="flex flex-center q-pa-xl">
       <RouterLink to="/contact"
         ><q-btn
           flat
