@@ -10,6 +10,16 @@
       <p class="text-bold">{{ content.title }}</p>
       <p>{{ content.text }}</p>
     </div>
+    <div class="flex flex-center q-pa-xl">
+      <RouterLink to="/blog"
+        ><q-btn
+          flat
+          label="Page articles"
+          class="q-px-md q-py-sm bg-secondary btn-custom"
+          color="white"
+          style="font-size: 20px"
+      /></RouterLink>
+    </div>
   </div>
 </template>
 

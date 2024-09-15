@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary" :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
-    <h2 class="text-center q-py-md" style="margin: 0">Tarifs</h2>
+    <h2 class="text-center q-py-md text-secondary" style="margin: 0">Tarifs</h2>
     <div
       class="q-py-xl"
       :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-3'"

@@ -1,6 +1,8 @@
 <template>
   <div :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
-    <h3 class="text-bold text-center" style="margin: 0">Foire aux questions</h3>
+    <h3 class="text-bold text-center text-secondary" style="margin: 0">
+      Foire aux questions
+    </h3>
     <div class="flex flex-center">
       <q-img
         class="q-mt-xl"

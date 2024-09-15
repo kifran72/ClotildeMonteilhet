@@ -32,7 +32,9 @@
           style="max-width: 10rem"
         />
         <h3 class="text-bold text-black" style="margin: 0">Spécilisations</h3>
-        <h4 class="text-black text-italic">-Entreprise-</h4>
+        <h4 class="text-black text-italic q-pt-md" style="margin: 0">
+          -Entreprise-
+        </h4>
         <h4 class="text-black text-italic" style="margin: 0">
           -Gestion du stress-
         </h4>

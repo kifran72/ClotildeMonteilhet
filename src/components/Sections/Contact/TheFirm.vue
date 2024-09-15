@@ -3,17 +3,11 @@
     class="flex flex-center"
     :class="$q.screen.lt.md ? ' q-pa-md' : ' q-pa-xl'"
   >
-    <h3
-      class="text-special"
-      :style="$q.screen.lt.md ? 'font-size: 5rem' : ''"
-      :class="$q.screen.lt.md ? '' : 'q-pb-xl'"
-    >
+    <h3 class="text-special" :style="$q.screen.lt.md ? 'font-size: 5rem' : ''">
       Le Cabinet
     </h3>
     <q-img
-      class="q-mt-xl"
       src="https://drive.google.com/thumbnail?id=1CRBbx4_2SXUDKdB8_PWe96kpCWSlA0Q7&sz=w1000"
-      style="height: 35rem"
     />
   </div>
 </template>

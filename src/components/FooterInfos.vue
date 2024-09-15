@@ -6,7 +6,7 @@
     <img
       alt="Quasar logo"
       src="https://drive.google.com/thumbnail?id=1ebgsfR3mVpFKbffCUdr0uFNLMPpjC0h6&sz=w1000"
-      style="width: 100%; height: auto"
+      style="width: 70%; height: auto"
     />
     <div class="column justify-between">
       <div>

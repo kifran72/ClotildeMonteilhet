@@ -26,7 +26,7 @@
             </h4>
           </q-card-section>
           <q-card-section class="text-center">
-            <h3 class="q-pa-lg" style="margin: 0">sur devis</h3>
+            <h3 class="q-pa-lg" style="margin: 0">Sur devis</h3>
             <div class="q-pa-lg">
               <p style="margin: 0">Nous construirons ensemble</p>
               <p style="margin: 0">

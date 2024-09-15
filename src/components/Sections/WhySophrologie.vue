@@ -3,7 +3,7 @@
     <div v-if="$q.screen.lt.md" class="q-pb-xl">
       <q-img
         class="full-height"
-        src="https://drive.google.com/thumbnail?id=15voY400Kd0t6JQROzuvzUz1N-EJnQUAjk&sz=w1000"
+        src="https://drive.google.com/thumbnail?id=15voY400Kd0t6JQROzuvzUz1N-EJnQUAj&sz=w1000"
       />
     </div>
 
