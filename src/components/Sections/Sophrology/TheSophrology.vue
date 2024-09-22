@@ -11,7 +11,7 @@
       <div></div>
     </div>
   </q-img>
-  <div class="q-pa-xl">
+  <div :class="$q.screen.lt.sm ? 'q-pa-md' : 'q-pa-xl'">
     <p>
       La Sophrologie fut créée par le neuropsychiatre Alfonso Caisedo en 1960;
       c'est une technique de relaxation basée sur la respiration, de profonde

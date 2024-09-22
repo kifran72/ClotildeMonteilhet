@@ -6,14 +6,14 @@
     <h3
       class="text-bold text-secondary"
       style="margin: 0"
-      :style="$q.screen.lt.xs ? '' : 'font-size: 30px'"
+      :style="!$q.screen.lt.sm ? '' : 'font-size: 25px'"
     >
       Ses bienfaits, sa pratique
     </h3>
     <h3
       class="text-italic"
       style="margin: 0"
-      :style="$q.screen.lt.xs ? '' : 'font-size: 30px'"
+      :style="!$q.screen.lt.sm ? '' : 'font-size: 25px'"
     >
       Méthode psycho-corporelle
     </h3>
