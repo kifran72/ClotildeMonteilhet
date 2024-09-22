@@ -6,7 +6,8 @@
     <img
       alt="Quasar logo"
       src="https://drive.google.com/thumbnail?id=1ebgsfR3mVpFKbffCUdr0uFNLMPpjC0h6&sz=w1000"
-      style="width: 70%; height: auto"
+      style="height: auto"
+      :style="$q.screen.lt.sm ? 'width: 100%;' : 'width: 70%;'"
     />
     <div class="column justify-between">
       <div>
