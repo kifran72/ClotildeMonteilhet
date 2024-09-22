@@ -3,7 +3,7 @@
     <div class="flex flex-center">
       <q-img
         src="https://drive.google.com/thumbnail?id=1axc571KrtfHqqcBdIO22gGIZCtmXqIMc&sz=w1000"
-        style="max-width: 30rem"
+        style="max-width: 30rem; max-height: 30rem"
       />
     </div>
     <div class="flex flex-center">

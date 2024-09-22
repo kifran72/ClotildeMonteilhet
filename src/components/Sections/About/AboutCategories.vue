@@ -31,7 +31,13 @@
           src="https://drive.google.com/thumbnail?id=113EnqPFJQwrGTZDnGOp6ZMZvQpS-5A1m&sz=w1000"
           style="max-width: 10rem"
         />
-        <h3 class="text-bold text-black" style="margin: 0">Spécialisations</h3>
+        <h3
+          class="text-bold text-black"
+          style="margin: 0"
+          :style="$q.screen.lt.sm ? 'font-size: 40px' : ''"
+        >
+          Spécialisations
+        </h3>
         <h4 class="text-black text-italic q-pt-md" style="margin: 0">
           -Entreprise-
         </h4>
