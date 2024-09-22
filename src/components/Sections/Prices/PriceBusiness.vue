@@ -1,8 +1,8 @@
 <template>
   <div class="bg-secondary" :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
-    <h2 style="margin: 0" class="text-center text-white text-italic">
+    <h4 style="margin: 0" class="text-center text-white text-italic">
       Le bien être en toutes circontances
-    </h2>
+    </h4>
   </div>
   <div>
     <div :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-2'">

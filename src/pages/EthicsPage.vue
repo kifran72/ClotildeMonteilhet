@@ -18,7 +18,7 @@
       <p>
         <span class="text-bold text-uppercase">ARTICLE 2 </span> Le sophrologue
         s’engage à actualiser régulièrement ses connaissances, afin de parfaire
-        l’ensemble de ses compétences envers ses clients, en se conformant à
+        l’ensemble de ses compétences envers ses patients, en se conformant à
         l’évolution de sa discipline.
       </p>
       <p>

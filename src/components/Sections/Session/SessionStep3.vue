@@ -17,12 +17,12 @@
       </div>
       <p>
         Cette étape est le dernier Echange et aussi le moment de faire le bilan
-        sur l’accompagnement, de voir si l’objectif est atteint. cette étape
+        sur l’accompagnement, de voir si l’objectif est atteint. Cette étape
         vous permet de prendre conscience de tout ce que vous avez mis en oeuvre
         pour atteindre votre objectif.
       </p>
       <p>
-        Dans cette dernière séance vous aurez votre dernier entretient avec des
+        Dans cette dernière séance vous aurez votre dernier entretien avec des
         relaxations dynamiques et une sophronisation de clôture pour consolider
         votre accompagnement.
       </p>

@@ -3,7 +3,7 @@
     <h3 class="text-bold text-secondary" style="margin: 0">
       Ses bienfaits, sa pratique
     </h3>
-    <h3 class="text-italic" style="margin: 0">Méthode spycho-corporelle</h3>
+    <h3 class="text-italic" style="margin: 0">Méthode psycho-corporelle</h3>
   </div>
   <div
     class="bg-primary"

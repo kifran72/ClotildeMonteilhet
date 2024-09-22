@@ -1,19 +1,19 @@
 <template>
   <div class="q-pa-xl">
-    <div v-if="$q.screen.lt.md">
+    <div v-if="$q.screen.lt.lg">
       <q-img
         src="https://drive.google.com/thumbnail?id=1pfUegtR-eOJ0qyT6KQHA167ODc4cDpyU&sz=w1000"
         class="changeIMG"
       />
-
       <div class="bg-transparent text-black">
         <div class="content-center">
-          <h2 class="text-black">Mes Spécialités</h2>
+          <h2 class="text-black" style="font-size: 35px">Mes Spécialités</h2>
 
           <div class="q-mt-xl">
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 20px">
               La petite enfance et la parentalité
             </p>
+
             <p>
               Parce que la petite enfance et la parentalité sont des sujets
               essentiels qui touchent le développement des enfants ainsi que le
@@ -30,7 +30,7 @@
               bien-être des enfants.
             </p>
 
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 20px">
               La Gestion des émotions pour les enfants et les adultes
             </p>
             <p>
@@ -52,7 +52,7 @@
               techniques de respiration profonde ou de méditation pour calmer
               votre esprit et réduire aussi l’anxiété.
             </p>
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 20px">
               En entreprise
             </p>
             <p>
@@ -67,7 +67,7 @@
     </div>
 
     <q-img
-      v-if="!$q.screen.lt.md"
+      v-if="!$q.screen.lt.lg"
       src="https://drive.google.com/thumbnail?id=1pfUegtR-eOJ0qyT6KQHA167ODc4cDpyU&sz=w1000"
       class="changeIMG"
     >
@@ -76,7 +76,7 @@
           <h2 class="text-black">Mes Spécialités</h2>
 
           <div class="q-mt-xl">
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 30px">
               La petite enfance et la parentalité
             </p>
             <p>
@@ -95,7 +95,7 @@
               bien-être des enfants.
             </p>
 
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 30px">
               La Gestion des émotions pour les enfants et les adultes
             </p>
             <p>
@@ -111,20 +111,19 @@
               quotidienne.
             </p>
             <p>
-              Avec la sophrologie, vous Pratiquez de la pleine conscience qui
-              vous aidera à rester ancré dans le moment présent, ce qui peut
-              réduire les pensées négatives et l'anxiété. Ainsi que des
-              techniques de respiration profonde ou de méditation pour calmer
-              votre esprit et réduire aussi l’anxiété.
+              Avec la sophrologie, vous pratiquez la pleine conscience qui vous
+              aidera à rester ancré dans le moment présent, ce qui peut réduire
+              les pensées négatives et l'anxiété, ainsi que des techniques de
+              respiration profonde ou de méditation pour calmer votre esprit.
             </p>
-            <p class="text-italic text-bold" style="font-size: 40px">
+            <p class="text-italic text-bold" style="font-size: 30px">
               En entreprise
             </p>
             <p>
               La sophrologie en entreprise est un excellent moyen d'améliorer le
               bien-être général des employés en leurs proposant un environnement
-              de travail sain, ce qui peut également avoir un impact positif sur
-              la performance de ses employers.
+              de travail sain, ce qui peut avoir un impact positif sur leur
+              propre la performance.
             </p>
           </div>
         </div>

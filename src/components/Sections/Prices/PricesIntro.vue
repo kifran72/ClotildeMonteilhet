@@ -26,7 +26,7 @@
   </q-img>
   <div class="text-center bg-secondary q-pa-xl">
     <p class="text-italic text-white" style="margin: 0; font-size: 25px">
-      Premier contact de découverte de 15 minutes
+      Premier contact de 15 minutes
       <span class="text-bold">gratuit</span> (voyons ensemble vos besoins)
     </p>
     <div class="flex flex-center q-pt-xl">

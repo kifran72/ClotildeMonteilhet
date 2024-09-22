@@ -13,7 +13,7 @@
       <p class="text-italic q-pb-xl">d’une séance collective en visio</p>
       <p>Séance non personnalisée, avec un thème.</p>
       <p>
-        Celle ci se déroulera avec plusieurs participants, y sera intégrée
+        Celle-ci se déroulera avec plusieurs participants, y seront intégrés
         quelques relaxations dynamiques et une sophronisation adaptée au thème
         choisi.
       </p>

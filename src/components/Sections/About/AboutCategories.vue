@@ -4,7 +4,7 @@
     style="grid-gap: 2rem"
     :style="$q.screen.lt.md ? 'padding: 1rem' : 'padding: 5rem 5rem 0 5rem'"
   >
-    <q-card class="bg-secondary" :class="$q.screen.lt.md ? '' : 'q-pt-xl'">
+    <q-card class="bg-secondary" :class="$q.screen.lt.md ? '' : 'q-py-xl'">
       <q-card-section class="text-center">
         <q-img
           src="https://drive.google.com/thumbnail?id=10__6uIa2R25o6pGWVj4IEf1xgGcclHuc&sz=w1000"
@@ -31,7 +31,7 @@
           src="https://drive.google.com/thumbnail?id=113EnqPFJQwrGTZDnGOp6ZMZvQpS-5A1m&sz=w1000"
           style="max-width: 10rem"
         />
-        <h3 class="text-bold text-black" style="margin: 0">Spécilisations</h3>
+        <h3 class="text-bold text-black" style="margin: 0">Spécialisations</h3>
         <h4 class="text-black text-italic q-pt-md" style="margin: 0">
           -Entreprise-
         </h4>
@@ -50,7 +50,7 @@
   <div class="q-pa-xl">
     <div class="bg-primary" style="padding: 1px">
       <div class="bg-secondary" style="margin: 5px">
-        <p class="text-center text-white" style="font-size: 30px; margin: 0">
+        <p class="text-center text-white" style="font-size: 25px; margin: 0">
           Membre du Syndicat des Sophrologues
         </p>
       </div>
@@ -62,6 +62,8 @@
 defineOptions({
   name: "AboutCategories",
 });
+
+const categories = [];
 </script>
 
 <style></style>

@@ -18,15 +18,15 @@
         style="display: flex; align-items: baseline"
       >
         <h3 style="margin: 0; min-width: 9rem">Etape 2</h3>
-        <p style="margin: 0">(séance intermédiaires)</p>
+        <p style="margin: 0">(séance intermédiaire)</p>
       </div>
       <p>
         Pendant tout l’accompagnement, les séances seront constituées d’un
         échange afin de faire le point ainsi que d’exercices de relaxations
-        dynamiques et d’une sophronisation définient dans le protocole.
+        dynamiques et d’une sophronisation définies dans le protocole.
       </p>
       <p>
-        Celui ci peut évantuellement évoluer en fonction de votre progression et
+        Celui-ci peut éventuellement évoluer en fonction de votre progression et
         de la mise en place du changement souhaité..
       </p>
     </div>
