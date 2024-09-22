@@ -1,9 +1,22 @@
 <template>
-  <div class="text-center q-pb-xl q-px-xl">
-    <h3 class="text-bold text-secondary" style="margin: 0">
+  <div
+    class="text-center"
+    :class="$q.screen.lt.md ? 'q-pb-md q-px-md' : 'q-pb-xl q-px-xl'"
+  >
+    <h3
+      class="text-bold text-secondary"
+      style="margin: 0"
+      :style="$q.screen.lt.xs ? '' : 'font-size: 30px'"
+    >
       Ses bienfaits, sa pratique
     </h3>
-    <h3 class="text-italic" style="margin: 0">Méthode psycho-corporelle</h3>
+    <h3
+      class="text-italic"
+      style="margin: 0"
+      :style="$q.screen.lt.xs ? '' : 'font-size: 30px'"
+    >
+      Méthode psycho-corporelle
+    </h3>
   </div>
   <div
     class="bg-primary"

@@ -1,10 +1,12 @@
 <template>
-  <div class="q-pa-xl">
-    <div v-if="$q.screen.lt.lg">
+  <div :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
+    <div v-if="$q.screen.lt.lg" class="flex flex-center">
       <q-img
         src="https://drive.google.com/thumbnail?id=1pfUegtR-eOJ0qyT6KQHA167ODc4cDpyU&sz=w1000"
-        class="changeIMG"
+        :style="$q.screen.lt.lg ? 'width: 10rem' : ''"
       />
+    </div>
+    <div v-if="$q.screen.lt.lg">
       <div class="bg-transparent text-black">
         <div class="content-center">
           <h2 class="text-black" style="font-size: 35px">Mes Spécialités</h2>

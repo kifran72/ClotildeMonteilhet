@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary" :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-2'">
-    <div class="q-pa-xl">
+    <div :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
       <h3 class="text-black">Mon parcours</h3>
       <p>
         Ayant eu une formation dans les arts plastiques et graphiques , j'ai mis

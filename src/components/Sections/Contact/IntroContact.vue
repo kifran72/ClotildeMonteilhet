@@ -1,6 +1,11 @@
 <template>
   <div class="flex flex-center">
-    <h2 class="text-secondary q-pa-md">Infos pratiques</h2>
+    <h2
+      class="text-secondary q-pa-md"
+      :style="$q.screen.lt.sm ? 'font-size: 50px' : ''"
+    >
+      Infos pratiques
+    </h2>
   </div>
   <div
     :class="$q.screen.lt.md ? 'wrapper q-pa-md' : 'wrapper-2 q-pa-xl'"
@@ -27,7 +32,7 @@
       <div :class="$q.screen.lt.md ? 'flex flex-center' : 'flex flex-column'">
         <p class="text-bold">Tel</p>
         <p>:</p>
-        <p class="q-pl-xs">065250514</p>
+        <p class="q-pl-xs">0652505914</p>
       </div>
 
       <div :class="$q.screen.lt.md ? 'flex flex-center' : 'flex flex-column'">
