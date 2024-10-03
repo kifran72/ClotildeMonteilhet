@@ -40,7 +40,6 @@
     <q-img
       v-if="!$q.screen.lt.md"
       src="https://drive.google.com/thumbnail?id=1Mn7wzaG8RZkRyqoQwv62TiJLWnEmx0Ku&sz=w1000"
-      :style="$q.screen.lt.md ? '' : 'max-height: 40rem; height: 40rem'"
     />
   </div>
 </template>

@@ -27,7 +27,7 @@
     <div :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
       <q-img
         src="https://drive.google.com/thumbnail?id=1pedi_BbMjwWUPJ0m1o0E7heWwlgCjigf&sz=w1000"
-        style="height: 100%; width: 100%"
+        style="height: 92%; width: 100%"
       />
     </div>
   </div>

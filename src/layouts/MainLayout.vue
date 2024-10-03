@@ -44,8 +44,15 @@
       <RoutesTab />
     </q-drawer>
 
-    <q-page-container class="bg-accent">
-      <q-page>
+    <q-page-container
+      class="bg-accent"
+      :style="
+        $q.screen.lt.xl
+          ? ''
+          : 'display: flex; justify-content: center; flex-direction: row'
+      "
+    >
+      <q-page :style="$q.screen.lt.xl ? '' : 'max-width: 1500px'">
         <router-view />
       </q-page>
       <!-- place QPageScroller at end of page -->
