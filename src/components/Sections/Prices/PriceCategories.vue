@@ -7,7 +7,7 @@
       style="grid-gap: 2rem"
     >
       <div v-for="price in Prices" :key="price">
-        <q-card>
+        <q-card :class="$q.screen.lt.md ? 'mobile-card' : ''">
           <q-card-section class="bg-secondary text-center">
             <h4 class="text-white text-italic" style="margin: 0">
               {{ price.title }}
@@ -77,8 +77,33 @@ const Prices = [
 ];
 </script>
 
-<style>
+<style scoped>
 .btn-custom {
   border-radius: 5px 5px 5px 5px;
+}
+
+.mobile-card {
+  width: 90%; /* Ajustez cette valeur selon vos besoins */
+  margin: 0 auto;
+}
+
+.mobile-card .q-card__section {
+  padding: 8px; /* Réduire le padding */
+}
+
+.mobile-card h4 {
+  font-size: 1.5rem;
+}
+
+.mobile-card h3 {
+  font-size: 1.9rem;
+}
+
+.mobile-card p {
+  font-size: 1rem;
+}
+
+.mobile-card .q-pa-lg {
+  padding: 8px; /* Réduire le padding */
 }
 </style>

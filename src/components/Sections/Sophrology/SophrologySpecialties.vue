@@ -11,7 +11,7 @@
         <div class="content-center">
           <h2 class="text-black" style="font-size: 35px">Mes Spécialités</h2>
 
-          <div class="q-mt-xl">
+          <div class="q-mt-xl" :class="$q.screen.lt.md ? 'text-justify' : ''">
             <p class="text-italic text-bold" style="font-size: 20px">
               La petite enfance et la parentalité
             </p>

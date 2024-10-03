@@ -25,7 +25,12 @@
             les tensions négatives et de faire le ménage avec vos blocages.
           </p>
           <div>
-            <p v-for="Rule in Rules" :key="Rule" class="text-bold">
+            <p
+              v-for="Rule in Rules"
+              :key="Rule"
+              class="text-bold"
+              :class="$q.screen.lt.md ? 'text-justify' : ''"
+            >
               {{ Rule }}
             </p>
           </div>

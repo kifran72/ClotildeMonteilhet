@@ -7,7 +7,12 @@
       class="absolute-full flex flex-center"
       :class="$q.screen.lt.sm ? 'wrapper' : 'wrapper-2'"
     >
-      <h2 class="text-special text-white flex flex-center">La Sophrologie</h2>
+      <h2
+        class="text-special text-white flex flex-center"
+        :class="$q.screen.lt.sm ? 'mobile-title' : ''"
+      >
+        La Sophrologie
+      </h2>
       <div></div>
     </div>
   </q-img>
@@ -72,4 +77,8 @@ defineOptions({
 });
 </script>
 
-<style></style>
+<style>
+.mobile-title {
+  font-size: 4.5rem;
+}
+</style>

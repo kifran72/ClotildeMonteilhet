@@ -4,6 +4,7 @@
       <q-img
         src="https://drive.google.com/thumbnail?id=1axc571KrtfHqqcBdIO22gGIZCtmXqIMc&sz=w1000"
         style="max-width: 30rem; max-height: 30rem"
+        :class="{ 'mobile-image': $q.screen.lt.md }"
       />
     </div>
     <div class="flex flex-center">
@@ -43,4 +44,9 @@ defineOptions({
 });
 </script>
 
-<style></style>
+<style>
+.mobile-image {
+  max-width: 15rem !important;
+  max-height: 15rem !important;
+}
+</style>

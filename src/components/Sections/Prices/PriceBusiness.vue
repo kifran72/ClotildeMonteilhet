@@ -1,10 +1,13 @@
 <template>
-  <div class="bg-secondary" :class="$q.screen.lt.md ? 'q-pa-md' : 'q-pa-xl'">
+  <div
+    class="bg-secondary"
+    :class="$q.screen.lt.md ? 'q-pa-md q-pb-xl' : 'q-pa-xl'"
+  >
     <h4 style="margin: 0" class="text-center text-white text-italic">
       Le bien être en toutes circontances
     </h4>
   </div>
-  <div>
+  <div :class="$q.screen.lt.md ? 'q-pb-xl' : ''">
     <div :class="$q.screen.lt.md ? 'wrapper' : 'wrapper-2'">
       <div :style="$q.screen.lt.md ? 'padding: 1rem' : 'padding: 5rem'">
         <q-img
@@ -16,7 +19,7 @@
         :style="$q.screen.lt.md ? 'padding: 1rem' : 'padding: 5rem'"
         class="flex flex-center"
       >
-        <q-card>
+        <q-card :class="$q.screen.lt.md ? 'mobile-card' : ''">
           <q-card-section class="bg-secondary text-center">
             <h4 class="text-white text-italic" style="margin: 0">
               Séance en entreprise,

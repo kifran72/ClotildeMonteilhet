@@ -32,7 +32,7 @@
       <div :class="$q.screen.lt.md ? 'flex flex-center' : 'flex flex-column'">
         <p class="text-bold">Tel</p>
         <p>:</p>
-        <p class="q-pl-xs">0652505914</p>
+        <p class="q-pl-xs">0744805301</p>
       </div>
 
       <div :class="$q.screen.lt.md ? 'flex flex-center' : 'flex flex-column'">

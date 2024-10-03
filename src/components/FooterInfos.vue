@@ -29,7 +29,7 @@
       <p class="text-bold">A PROPOS</p>
       <RouterLink to="/about"><p>Qui je suis</p></RouterLink>
       <RouterLink to="/blog"><p>Blog</p></RouterLink>
-      <p>Mentions légales</p>
+      <RouterLink to="/terms-of-use"><p>Mentions légales</p></RouterLink>
     </div>
     <div>
       <p class="text-bold">RÉSEAUX</p>

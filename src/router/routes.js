@@ -37,6 +37,10 @@ const routes = [
         path: "appointments",
         component: () => import("pages/AppointmentsPage.vue"),
       },
+      {
+        path: "terms-of-use",
+        component: () => import("pages/TermsOfUsePage.vue"),
+      },
     ],
   },
 

@@ -14,6 +14,12 @@
       :style="$q.screen.lt.md ? 'transform: scale(1.4);' : ''"
     />
   </div>
+
+  <div
+    v-if="$q.screen.lt.md"
+    class="bg-secondary q-mx-lg"
+    style="height: 2rem; margin-top: 3rem"
+  ></div>
 </template>
 
 <script setup>
