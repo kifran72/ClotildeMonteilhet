@@ -30,7 +30,7 @@
       <span class="text-bold">gratuit</span> (voyons ensemble vos besoins)
     </p>
     <div class="flex flex-center q-pt-xl">
-      <RouterLink to=""
+      <RouterLink to="/contact"
         ><q-btn
           no-caps
           outline
